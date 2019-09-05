@@ -87,6 +87,7 @@ svg {
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
+    text-align: center;
     line-height: 56px;
     text-transform: uppercase;
     color: #0094FF;
@@ -98,6 +99,7 @@ svg {
     position: absolute;
     width: 70px;
     height: 22px;
+    text-align: center;
 
     font-family: Roboto Condensed;
     font-style: normal;
@@ -108,7 +110,7 @@ svg {
     text-transform: uppercase;
     color: #0094FF;
     z-index: 1;
-    left: 72px;
+    left: 66px;
     top: 205px;
 }
 
@@ -117,6 +119,7 @@ i {
     font-size: 45px;
     color: #0094FF;
     background-color: #000000;
+    cursor: pointer;
 }
 .icons {
     position: relative;
@@ -124,4 +127,35 @@ i {
     left: 62px;
     top: 335px;
     word-spacing: 13px;
+}
+#option {
+    position: relative;
+    width: 83px;
+    height: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #0094FF;
+    z-index: 1;
+    left: 33px;
+    top: 79px;
+}
+#time2 {
+    position: absolute;
+    width: 55px;
+    height: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    left: 150px;
+    top: 79px;
+    z-index: 1;
+
 }
