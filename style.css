@@ -12,7 +12,6 @@
     background-color:rgb(0, 132, 255);
 }
 .box.box-2 {
-    background-color: white;
     margin-left: 50%;
 }
 #title {
@@ -29,4 +28,100 @@
 svg {
     margin-left: 10%;
     margin-top:10%;
+}
+.watch {
+    position: absolute;
+    width: 224px;
+    height: 561px;
+    margin-left: 15%;
+    margin-top:25%;
+}
+.group {
+    position: absolute;
+    width: 224px;
+    height: 561px;
+}
+.rectangle1 {
+    position: absolute;
+    width: 224px;
+    height: 293px;
+
+    background: #1F1E1E;
+    border-radius: 36px;
+}
+.rectangle6 {
+    position: absolute;
+    width: 196px;
+    height: 261px;
+    left: 15px;
+    top: 15px;
+    background: #000000;
+    border-radius: 41px;
+}
+.rectangle5-2 {
+    position: absolute;
+    width: 160px;
+    height: 145px;
+    background: #000000;
+    top: -113px;
+    left: 33px;
+    border-radius: 41px;
+    z-index: -1;
+}
+.rectangle5-1 {
+/* Rectangle 5.1 */
+    position: absolute;
+    width: 160px;
+    height: 172px;
+    background: #000000;
+    top: 260px;
+    left: 33px;
+    border-radius: 41px;
+    z-index: -1;
+}
+.time {
+    position: absolute;
+    width: 148px;
+    height: 56px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #0094FF;
+    left: 37px;
+    z-index: 1;
+    top: 130px;
+}
+.day {
+    position: absolute;
+    width: 70px;
+    height: 22px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #0094FF;
+    z-index: 1;
+    left: 72px;
+    top: 205px;
+}
+
+i {
+    z-index: 1;
+    font-size: 45px;
+    color: #0094FF;
+    background-color: #000000;
+}
+.icons {
+    position: relative;
+    z-index: 1;
+    left: 62px;
+    top: 335px;
+    word-spacing: 13px;
 }
