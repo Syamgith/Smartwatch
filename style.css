@@ -195,4 +195,18 @@ i {
 }
 .message {
     cursor: pointer;
+    line-height: 10mm;
+    position: absolute;
+    left: 8px;
+    top: 25px;
+    overflow: scroll;
+    word-wrap: break-word;
+}
+iframe {
+    border: 0;
+    width: 95%; 
+    height: 200px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
 }
