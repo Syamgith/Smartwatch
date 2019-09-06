@@ -79,6 +79,19 @@ svg {
     border-radius: 41px;
     z-index: -1;
 }
+.display {
+    position: absolute;
+    width: 196px;
+    height: 261px;
+    left: 15px;
+    top: 46px;
+    z-index: 1;
+}
+#default {
+    top: -40px;
+    left: -5px;
+    position: absolute;
+}
 .time {
     position: absolute;
     width: 148px;
@@ -91,9 +104,9 @@ svg {
     line-height: 56px;
     text-transform: uppercase;
     color: #0094FF;
-    left: 37px;
+    left: 27px;
     z-index: 1;
-    top: 130px;
+    top: 80px;
 }
 .day {
     position: absolute;
@@ -110,8 +123,8 @@ svg {
     text-transform: uppercase;
     color: #0094FF;
     z-index: 1;
-    left: 66px;
-    top: 205px;
+    left: 63px;
+    top: 150px;
 }
 
 i {
@@ -140,8 +153,8 @@ i {
     text-transform: capitalize;
     color: #0094FF;
     z-index: 1;
-    left: 33px;
-    top: 79px;
+    left: 15px;
+    top: 11px;
 }
 #time2 {
     position: absolute;
@@ -154,8 +167,32 @@ i {
     line-height: 21px;
     text-transform: capitalize;
     color: #FFFFFF;
-    left: 150px;
-    top: 79px;
+    left: 133px;
+    top: 11px;
     z-index: 1;
-
+}
+#content {
+    position: absolute;
+    width: 189px;
+    height: 212px;
+    left: 2px;
+    top: 36px;
+    z-index: 1;
+    color: #0094FF;
+    overflow: scroll;
+    word-wrap: break-word;
+}
+#content-message {
+    position: absolute;
+    width: 178px;
+    height: 196px;
+    left: 8px;
+    top: 7px;
+    z-index: 1;
+    color: #0094FF;
+    overflow: scroll;
+    word-wrap: break-word;
+}
+.message {
+    cursor: pointer;
 }
