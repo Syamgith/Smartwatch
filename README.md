@@ -1,2 +1,2 @@
 A Smartwatch app.
-Plays music, shows stored messages, and timer
+It plays music, shows stored messages, and has a timer.
