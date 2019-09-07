@@ -1,3 +1,4 @@
+// smartwatch app
 // printing time and day
 var day = new Date();
 var n = day.getDay();
@@ -6,7 +7,7 @@ let week = ['Sunday', 'Monday', 'Tuesday', 'Wenesday', 'Thursday', 'Friday', 'Sa
 $("#time").html(new Date().getHours() + ":" + new Date().getMinutes());
 //document.getElementById("day").innerHTML = week[n];
 $("#day").html(week[n]);
-
+let home = $('#default');
 //messages
 $(document).ready(function(){
     $("#message").click(function(){
@@ -74,7 +75,7 @@ $(document).ready(function(){
     $("#music").click(function(){
         $("#option").html("Music");
         $("#time2").html(new Date().getHours() + ":" + new Date().getMinutes());
-        $("#default").empty();
+        //$("#default").empty();
         $("#content").empty();
         let musicHtml = 
             '<div id="content-music">' +
@@ -88,7 +89,7 @@ $(document).ready(function(){
     $("#timer").click(function(){
         $("#option").html("Timer");
         $("#time2").html(new Date().getHours() + ":" + new Date().getMinutes());
-        $("#default").empty();
+        //$("#default").empty();
         $("#content").empty();
         let timerHtml = '<div id="content-timer">' +
         '<h2><time>00:00:00</time></h2>' +
@@ -136,5 +137,12 @@ $(document).ready(function(){
             h2.textContent = "00:00:00";
             seconds = 0; minutes = 0; hours = 0;
         }
+    });
+  });
+  //Home
+  $(document).ready(function(){
+    $(".rectangle1").click(function(){
+        $("#content").empty();
+        $("#content").append(home);
     });
   });
