@@ -179,7 +179,7 @@ i {
     top: 36px;
     z-index: 1;
     color: #0094FF;
-    overflow: scroll;
+    /* overflow: scroll; */
     word-wrap: break-word;
 }
 #content-message {
@@ -190,7 +190,7 @@ i {
     top: 7px;
     z-index: 1;
     color: #FFFFFF;
-    overflow: scroll;
+    /* overflow: scroll; */
     word-wrap: break-word;
 }
 .message {
@@ -198,8 +198,8 @@ i {
     line-height: 10mm;
     position: absolute;
     left: 8px;
-    top: 25px;
-    overflow: scroll;
+    top: 2px;
+    /* overflow: scroll; */
     word-wrap: break-word;
 }
 iframe {
