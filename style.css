@@ -13,6 +13,7 @@
 }
 .box.box-2 {
     margin-left: 50%;
+    top: 3px;
 }
 #title {
     display: flex;

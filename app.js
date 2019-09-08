@@ -75,7 +75,6 @@ $(document).ready(function(){
     $("#music").click(function(){
         $("#option").html("Music");
         $("#time2").html(new Date().getHours() + ":" + new Date().getMinutes());
-        //$("#default").empty();
         $("#content").empty();
         let musicHtml = 
             '<div id="content-music">' +
@@ -89,7 +88,6 @@ $(document).ready(function(){
     $("#timer").click(function(){
         $("#option").html("Timer");
         $("#time2").html(new Date().getHours() + ":" + new Date().getMinutes());
-        //$("#default").empty();
         $("#content").empty();
         let timerHtml = '<div id="content-timer">' +
         '<h2><time>00:00:00</time></h2>' +
