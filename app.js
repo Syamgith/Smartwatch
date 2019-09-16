@@ -139,7 +139,7 @@ $(document).ready(function(){
   });
   //Home
   $(document).ready(function(){
-    $(".rectangle1").click(function(){
+    $("#home").click(function(){
         $("#content").empty();
         $("#content").append(home);
     });
