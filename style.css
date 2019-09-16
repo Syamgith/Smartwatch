@@ -142,6 +142,11 @@ i {
     top: 335px;
     word-spacing: 13px;
 }
+#home {
+    left: -84px;
+    top: -334px;
+    position: relative;
+}
 #option {
     position: relative;
     width: 83px;
