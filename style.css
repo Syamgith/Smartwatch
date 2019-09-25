@@ -110,21 +110,19 @@ svg {
     top: 80px;
 }
 .day {
-    position: absolute;
-    width: 95px;
+    position: relative;
+    width: 151px;
     height: 22px;
     text-align: center;
-
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height */
     text-transform: uppercase;
     color: #0094FF;
     z-index: 1;
-    left: 57px;
+    left: 23px;
     top: 150px;
 }
 
@@ -190,7 +188,7 @@ i {
 }
 #content-message {
     position: absolute;
-    width: 178px;
+    width: 180px;
     height: 196px;
     left: 8px;
     top: 7px;

@@ -2,7 +2,7 @@
 // printing time and day
 var day = new Date();
 var n = day.getDay();
-let week = ['Sunday', 'Monday', 'Tuesday', 'Wenesday', 'Thursday', 'Friday', 'Saturday'];
+let week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 //document.getElementById("time").innerHTML = new Date().getHours() + ":" + new Date().getMinutes();
 $("#time").html(new Date().getHours() + ":" + new Date().getMinutes());
 //document.getElementById("day").innerHTML = week[n];
@@ -139,8 +139,27 @@ $(document).ready(function(){
   });
   //Home
   $(document).ready(function(){
+
     $("#home").click(function(){
         $("#content").empty();
         $("#content").append(home);
     });
+  });
+
+
+  //resize
+  var currentWidth = $(window).width();
+  var currentHeight = $(window).height();
+
+  $(window).resize(function() {
+    var oldWidth = currentWidth;
+    var oldHeight = currentHeight;
+    currentWidth = $(this).width();
+    currentHeight = $(this).height();
+    if (oldWidth<currentWidth || oldHeight<currentHeight){
+      alert("Maximised");
+    }
+    else {
+      alert("Minimized");
+    }
   });
