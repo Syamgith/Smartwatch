@@ -145,21 +145,3 @@ $(document).ready(function(){
         $("#content").append(home);
     });
   });
-
-
-  //resize
-  var currentWidth = $(window).width();
-  var currentHeight = $(window).height();
-
-  $(window).resize(function() {
-    var oldWidth = currentWidth;
-    var oldHeight = currentHeight;
-    currentWidth = $(this).width();
-    currentHeight = $(this).height();
-    if (oldWidth<currentWidth || oldHeight<currentHeight){
-      alert("Maximised");
-    }
-    else {
-      alert("Minimized");
-    }
-  });
